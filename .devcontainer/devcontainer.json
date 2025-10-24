@@ -1,0 +1,4 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postStartCommand": "chmod +x /workspaces/startup.sh && /workspaces/startup.sh"
+}
